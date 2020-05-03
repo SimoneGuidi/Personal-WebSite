@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    /*css per la personalizzazione dei titoli h3*/
+    margin-bottom: 30px;
+    font-family: 'Staatliches', cursive;
+    font-weight: 700;
+    color: black;
+    font-size: 36px;
+    justify-content: center;
+}
+
+h5 {
+    /*css per la personalizzazione dei titoli h3*/
+    font-size: 12px;
+    color: dimgrey;
+    padding-left: 25px;
+}
+
+.pers_icon {
+    /*css per icone social*/
+    height: 30px;
+    width: 30px;
+}
+
+.pers-photo {
+    /*css per foto della section "bio"*/
+    height: 350px;
+    width: 450px;
+
+}
+
+.pers-photo2 {
+    /*css per le foto della section "projects"*/
+    height: 350px;
+    width: 500px;
+    padding: 30px;
+}
+
+.pers-text {
+    /*css per testo*/
+    padding-top: 40px;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+#bio {
+    /*css per section con id bio*/
+    background-color: white;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 60px;
+}
+
+#project {
+    /*css per section con id project*/
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 60px;
+    background-color: rgb(238, 238, 238);
+
+}
+
+#skill {
+    /*css per section con id skill*/
+    height: auto;
+    overflow: hidden;
+    padding: 60px;
+}
+
+#contact {
+    /*css per section con id contact*/
+    background-color: rgb(238, 238, 238);
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 60px
+}
+
+#home {
+    /*css per section con id home*/
+    height: 100vh;
+    background-image: url(img/bg-home.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#home h1,
+h2 {
+    /*css per h1 e h2 di section con id home*/
+    font-family: 'Staatliches', cursive;
+    font-weight: 700;
+    color: black;
+    font-size: 48px;
+    display: block;
+
+}
+
+#home h1 {
+    /*css per h1 di section con id home*/
+    font-style: italic;
+}
+
+.pers-sk-photo {
+    /*css per le foto della sezione skill*/
+    width: 750px;
+    height: 450px;
+}
+
+/*css per classi navbar*/
+.nav-item .nav-link {
+
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0px 10px;
+}
+
+.navbar-brand {
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.custom-nav {
+    padding-right: 200px;
+}
+
+/* Cellular style*/
+@media only screen and (max-width: 400px) {
+    .pers-photo {
+        margin-left: 100px;
+        height: 150px;
+        width: 150px;
+    }
+
+    #bio {
+        height: auto;
+        width: auto;
+    }
+
+    .pers-photo2 {
+        /*css per le foto della section "projects"*/
+        height: 100px;
+        width: 150px;
+        padding: 30px;
+    }
+
+    .pers-sk-photo {
+        /*css per le foto della sezione skill*/
+        width: 100px;
+        height: 150px;
+    }
+
+}
+
+/* Tablet style */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .pers-photo {
+        margin-left: 100px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .pers-photo2 {
+        /*css per le foto della section "projects"*/
+        height: 200px;
+        width: 250px;
+        padding: 30px;
+    }
+
+    .pers-sk-photo {
+        /*css per le foto della sezione skill*/
+        width: 200px;
+        height: 250px;
+    }
+
+
+    #bio {
+        height: auto;
+        width: auto;
+    }
+}
+
+/* Pc style */
+@media only screen and (min-width: 961px) {
+    .pers-photo {
+        margin-left: 100px;
+        height: 500px;
+        width: 750px;
+    }
+
+    .pers-photo2 {
+        /*css per le foto della section "projects"*/
+        height: 350px;
+        width: 500px;
+        padding: 30px;
+    }
+
+    .pers-sk-photo {
+        /*css per le foto della sezione skill*/
+        width: 750px;
+        height: 450px;
+    }
+
+
+}

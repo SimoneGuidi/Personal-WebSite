@@ -1,0 +1,11 @@
+body {
+    background-color: aqua;
+    background-repeat: repeat;
+    margin: 0px;
+}
+p{
+    font-size: 22;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    color:darkblue;
+    font-weight: bold;
+}

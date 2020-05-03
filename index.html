@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Ramabhadra&family=Squada+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
     <title>Simone Guidi</title>
@@ -21,12 +21,12 @@
     <!--NAVBAR-->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand">SIMONE GUIDI</a>
+            <a class="navbar-brand" style="font-family: 'Ramabhadra', sans-serif;">SIMONE GUIDI</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-example" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbar-example">
-                <ul class="nav navbar-nav mx-auto">
+            <div class="collapse navbar-collapse custom-nav" id="navbar-example">
+                <ul class="nav navbar-nav mx-auto ">
                     <li class="nav-item active">
                         <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                     </li>
@@ -39,14 +39,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#skill">Skill</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contacts</a>
-                    </li>
                 </ul>
             </div>
-            <a class="navbar-brand" href="https://www.instagram.com/simone.guidi_/"><img class="pers_icon" src="img/insta.png"></a>
-            <a class="navbar-brand" href="https://www.facebook.com/simone.guidi.79/"><img class="pers_icon" src="img/face.png"></a>
-            <a class="navbar-brand" href="https://www.linkedin.com/in/simone-guidi-760734177/"><img class="pers_icon" src="img/linke.png"></a>
+
         </nav>
     </header>
 
@@ -122,6 +117,7 @@
                     <h4>Hard skill</h4>
                 </center>
                 <img src="img/skill.PNG" class="pers-sk-photo rounded mx-auto d-block">
+                <h5>1: minum level </h5>
             </div>
 
             <div class="col-lg-6 col-md-6 col-xs-6">
@@ -129,16 +125,26 @@
                     <h4>Soft skill</h4>
                 </center>
                 <img src="img/skill2.PNG" class="pers-sk-photo rounded mx-auto d-block">
+                <h5>5: max level</h5>
             </div>
         </div>
     </section>
 
-
+    <!--FOOTER/CONTACT-->
     <footer id="contact">
-
-
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12 text-center">
+                <a class="navbar-brand" href="https://www.instagram.com/simone.guidi_/"><img class="pers_icon rounded mx-auto d-block" src="img/insta.png"></a>
+                <a class="navbar-brand" href="https://www.facebook.com/simone.guidi.79/"><img class="pers_icon rounded mx-auto d-block" src="img/face.png"></a>
+                <a class="navbar-brand" href="https://www.linkedin.com/in/simone-guidi-760734177/"><img class="pers_icon rounded mx-auto d-block" src="img/linke.png"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12 text-center">
+                <p>contact me through my social profiles or my email address <a href="mailto:simoneguidi01@gmail.com">simoneguidi01@gmail.com</a></p>
+            </div>
+        </div>
     </footer>
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -149,5 +155,8 @@
         $('body').scrollspy({
             target: '#navbar-example'
         })
+
     </script>
-</body></html>
+</body>
+
+</html>

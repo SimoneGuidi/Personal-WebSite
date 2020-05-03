@@ -1,0 +1,10 @@
+body {
+    margin: 0px;
+    background-color: aqua;;
+    background-repeat: repeat;
+}
+ h2{
+    font-size: 50px;
+    color:black;
+    font-family: Lucida Console, Monaco, monospace; 
+}

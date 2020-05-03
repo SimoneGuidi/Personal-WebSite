@@ -1,0 +1,327 @@
+<html>
+    <head>
+        <title>cristianoronaldo2</title>
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/TitoloMenu.css">
+        <link rel="stylesheet" href="css/testo.css">
+        <link rel="stylesheet" href="css/home.css">
+    </head>
+    <style>
+
+        div.menu-wrapper {
+            margin-left: auto;
+            background-color: goldenrod;
+            width: 2100px;
+            margin-top: 0px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+            
+            /*css menu*/
+        }
+
+        div.menu-wrapper_titolo {
+
+            margin-right: 100px;
+            background-color:goldenrod;
+            
+        }
+
+        div.menu-wrapper_menu {
+            /*css menu*/
+            margin-right: 20px
+        }
+
+        div.slide_show {
+            display: none;
+            max-width: 650px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: darkslategrey;
+            margin-top: 235px;
+        }
+
+        div.page {
+            margin-left: 190px;
+            margin-right: 190px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            display: none;
+            margin-top: 235px;
+            font-size:20px;
+            background-color: aqua;
+            border-left: 3px solid darkcyan;
+            border-right: 3px solid darkcyan;
+        }
+
+        div.wrapper_immagini {
+            margin-left: 400px;
+            margin-right: 150px;
+            margin-top: 50px;
+        }
+
+        div.menu-wrapper_titolo a {
+            text-decoration: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        div.menu-wrapper_titolo img {
+            margin-left: 35px;
+            margin-right: 35px;
+            margin-top: 25px;
+        }
+
+        div.wrapper_2 {
+            border: 4px darkblue;
+        }
+
+        div.slide_show_2 {
+            display: none;
+            margin-top: 100px;
+        }
+        div.page li{
+            font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
+            font-weight: bold;
+        }
+        div.top_menu{
+            position: fixed; top: 0; left: 0;
+            margin-right: 100px;
+            margin-left: auto;
+        }
+        div.menu-wrapper h1{
+            margin-right: 250px;
+        }
+    </style>
+
+    <body>
+    <div class="top_menu" > <!--div che contiene titolo e menu-->  
+        <div>
+        <!--div che contiene il titolo-->
+        <div class="menu-wrapper_titolo">
+            <i>Cristiano Ronaldo</i>
+            <a href="https://www.youtube.com/user/CristianoRonaldo">
+                <img src="img/youtube.png" height="60" width="60">
+            </a>
+            <a href="https://it-it.facebook.com/Cristiano/">
+                <img src="img/facebook.png" height="60" width="60">
+            </a>
+            <a href="https://www.instagram.com/cristiano/?hl=it">
+                <img src="img/instagram.png" height="60" width="60">
+            </a>
+        </div>
+        <!--div che contiene il menu'-->
+        <div class="menu-wrapper">
+            <div style="display: inline-block;" class="menu-wrapper_menu">
+                <h1>
+                    <a href="" onclick="naviga('home')"><img src="img/home.png"></a>
+                </h1>
+            </div>
+
+            <div style="display: inline-block;" class="menu-wrapper_menu">
+                <h1>
+                    <a href="#" onclick="naviga('storia')">La storia</a>
+                </h1>
+            </div>
+            <div style="display: inline-block;" class="menu-wrapper_menu">
+                <h1>
+                    <a href="#" onclick="naviga('trofei')">I trofei</a>
+                </h1>
+            </div>
+            <div style="display: inline-block;" class="menu-wrapper_menu">
+                <h1>
+                    <a href="#" onclick="naviga('vita')">La vita</a>
+                </h1>
+            </div>
+        </div>
+    </div>    
+    </div>    
+    <!--home galleria immagini-->
+        <div  id="home">
+            <div class="slide_show">
+
+                <img class="wrapper_immagini" src="img/img1.jpg" height="450" width="441" style="width:100%">
+                <h3>
+                    L'ultima magia di Cristiano Ronaldo, allo Juventus Stadium, nei quarti di finale di Champions League 
+                </h3>
+            </div>
+            <div class="slide_show">
+                <img src="img/img2.jpg" height="450" width="441" style="width:100%">
+                <h3>
+                    Cristiano Ronaldo durante la premiazione del Pallone d'Oro 2017, il quinto per lui
+                </h3>
+            </div>
+            <div class="slide_show">
+                <img src="img/img3.jpg" height="450" width="441" style="width:100%">
+                <h3>
+                    L'infortunio di Cristiano Ronaldo che lo costrinse ad abbandonare il campo durante la finale di Euro2016
+                </h3>
+            </div>
+        </div>
+       <!--pagine per collegamenti--> 
+        <div id="storia" class="page">
+            <i>La Storia Di Cristiano Ronaldo</i>
+
+            
+                <p>Cristiano Ronaldo e' un calciatore portoghese, che milita nel Real Madrid. Comincia a giocare all'eta' di 7 anni
+                    nella squadra in cui suo padre fa il magazziniere</p>
+                <b>i ragazzi di dodici anni gia' all'epoca volevano a giocare assieme a lui.</b>
+                <p>Nel 1995 si trasferisce al Nacional</p><b>che ne rileva le prestazioni in cambio di due divise nuove. Due anni piu' tardi</b>
+                <p>a 12 anni, approda allo Sporting Lisbona in cambio di 12 000€, divenendo il ragazzino piu' pagato del Paese.</p>
+                <b>Gioca per cinque anni nelle giovanili della squadra e dimostra presto il proprio talento.</b>
+                <p>Esordisce in prima squadra durante una gara contro l'Inter.</p>
+                <b>Il 13 agosto 2003,</b><p>Cristiano Ronaldo si trasferisce al Manchester United per 12,24 milioni di sterline, diventando cosi' il teenager
+                piu' costoso nella storia del calcio inglese.</p>
+                <b>Oltre a cio' diventa anche il primo giocatore portoghese dei Red Devils. L'11 giugno 2009 il Manchester United
+                    annuncia di aver accettato l'offerta di 80 milioni di sterline (circa 94 milioni) da parte del Real Madrid
+                    e autorizza quindi il club a trattare col giocatore. Quindici giorni dopo</b>
+                <p>il club madrileno annuncia di aver ufficialmente siglato l'accordo con il Manchester United per il trasferimento
+                    di Cristiano Ronaldo in Spagna a partire dal 1° luglio.</p>
+                <b>Per lui il club ha fissato una clausola rescissoria di 1 miliardo di euro, una somma che non ha eguali
+                nella storia del calcio. La sua presentazione ufficiale, il 6 luglio allo Stadio Santiago Bernabeu,
+                e' seguita da 80 000 tifosi.</b>
+                <p>Conclude la sua prima stagione con 35 presenze e 33 reti. In seguito sceglie di indossare la maglia numero
+                    7. Il 4 novembre riceve per la seconda volta la Scarpa d'oro (precedentemente aveva ottenuto il riconoscimento
+                    nel 2008) come miglior cannoniere europeo della passata stagione.</p>
+                <b>Tutti gli anni a seguire sono pieni di trionfi, gol e soddisfazioni per lui. Ancora oggi all'eta' di
+                    31 anni continua ad infrangere record con la maglia del Real Madrid e della nazionale portoghese.</b>
+        </div>
+        <!--div che contiene i trofei di cristiano ronaldo-->
+        <div id="trofei" class="page">
+            <i>I trofei di Cristiano Ronaldo</i>
+
+            <div>
+                <p>Nei suoi anni di carriera ad altissimi livelli Cristiano Ronaldo ha conquistato moltissimi trofei, sia in maniera
+                    individuale, sia in squadra.</p>
+            </div>
+            <div>
+                <b>Partiamo da quelli individuali:</b>
+            </div>
+            <div>
+                    <ul >
+                        <li>
+                            5 Palloni d'oro(il massimo trofeo individuale che si puo' ricevere, laurea il calciatore come il
+                                migliore del mondo
+                        </li>
+                        <li>
+                            1 calciatore dell'anno per club
+                        </li>
+                        <li>
+                            4 scarpa d'oro (calciatore che ha segnato piu' gol in Europa durante una stagione di campionato)
+                        </li>
+                        <li>
+                            8 calciatore portoghese dell'anno all'estero
+                        </li>
+                        <li>
+                            1 miglior calciatore della coppa del mondo per club
+                        </li>
+                        <li>
+                            4 giovane dell'anno
+                        </li>    
+                        <li>
+                            3 volte inserito nella squadra ideale dell'europeo per nazionali
+                        </li>    
+                        <li>
+                        12 volte inserito nella miglior squadra dell'anno per club
+                        </li>
+                        <li>
+                        4 volte inserito nella squadra ideale della Champions League
+                        </li>
+                        <li>
+                            6 volte capocannoniere della Champions League (calciatore con piu' gol nella Champions League)
+                        </li>
+                        <li> 
+                            Ci fermiamo qui, ma ce ne sono molti altri...
+                        </li>
+                    </ul>
+            </div>
+                
+            <div>
+                <p>Passiamo ora ai suoi trofei con squadra e nazionale: </p>
+            </div>
+            <div>
+                
+                    <ul>
+                        <li>
+                            4 Champions League 
+                        </li>
+                        <li>
+                            4 coppe del mondo per club                    
+                        <li>
+                            2 supercoppe UEFA 
+                        </li>
+                        <li>
+                            1 campionato europeo (con la nazionale portoghese)
+                        </li>
+                        <li>
+                            1 coppa portoghese
+                        </li>
+                        <li>
+                            3 campionati inglesi
+                        </li>
+                        <li>
+                            2 campionati spagnoli
+                        </li>
+                        <li>
+                            5 coppe inglesi 
+                        </li>
+                
+                
+            </div>
+            <center>
+                <img src="img/trofeicr7.jpg">
+            </center>
+        </div>
+        </div>
+        <!--div che contiene la vita di cristiano ronaldo-->
+        <div id="vita" class="page">
+            <i>La vita fuori dal campo di Cristiano Ronaldo</i>
+            <p>Anche fuori dal campo Cristiano Ronaldo e' un campione. Molte le opere di benificenza da parte del calciatore...</p>
+            <b>Per esempio nel 2011, mise all'asta la sua scarpa d'oro, da cui ricavo' 1,5 milioni di euro spesi per far costruire scuole
+               nel Gaza; Il calciatore e' anche ambasciatore dell'unicef, save the children e world vision. Inoltre in una sua vecchia
+               intervista dichiaro' di non avere tatuaggi perche' altrimenti non potrebbe donare sangue ai bisognosi;</b>
+            <p>Nel 2015 dono' 5 milioni di euro per aiutare i terremotati del Nepal.</p>
+            <b>Oltre a queste opere di benificienza, dove ne andrebbero aggiunte delle altre il campione portoghese non vieta
+               mai un autografo, un selfie o anche un solo saluto ai suoi fan piccoli o grandi che siano.</b>
+            <p>Al di fuori della sua generosita', Cristiano ha 3 figli.. Il primo e' molto legato al papa', si capisce anche
+               dal nome, Cristiano Ronaldo Jr. Gli altri figli sono due gemelli nati qualche mese fa, Eva e Mateo.</p>
+            <center>
+                <img src="img/figli2.jpg" alt=" ">
+            </center>
+        </div>
+
+    </body>
+    <!--codice java script-->
+    <script>
+        var myIndex = 0;
+        carousel();
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("slide_show");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 4500);
+        }
+
+
+        function naviga(divId) {
+            var allPage = document.getElementsByClassName('page');
+            for (i=0; i < allPage.length; i++){
+                allPage[i].style.display = "none";
+            }
+            var showPage = document.getElementById(divId);
+            showPage.style.display = "block";
+            var gallery = document.getElementById('home');
+            gallery.style.display = "none";
+        }
+        
+        
+    </script>
+
+</html>
